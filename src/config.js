@@ -184,13 +184,13 @@ var config = {
 				
 		
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Calle',
 			query: '(nwr[name~"^[Cc]alle"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#00ff00',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -222,13 +222,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Avenida',
 			query: '(nwr[name~"^[Aa]venida"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -260,13 +260,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Paseo',
 			query: '(nwr[name~"^[Pp]aseo"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
 			iconStyle: 'background-color:#ff0000',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -298,13 +298,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Parque',
 			query: '( nwr[name~"^[Pp]arque"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#ffc0cb',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -336,13 +336,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Plaza',
 			query: '(nwr[name~"^[Pp]laza"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#ff00ff',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -374,13 +374,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'Camino',
 			query: '(nwr[name~"^[Cc]amino"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#800080',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -412,13 +412,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'mtb:type=freeride',
 			query: '(nwr["mtb:type"="freeride"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -450,13 +450,13 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'mtb:type=trail',
 			query: '(nwr["mtb:type"="trail"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#000080',
 			style: function (feature) {
-				var key_regex = /^name$/
+				var key_regex = /^name:ca$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -488,7 +488,7 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'mtb:name (node)',
 			query: '(node["mtb:name"][name]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -525,7 +525,7 @@ var config = {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'Noms en castellà',
 			title: 'mtb:name (way)',
 			query: '(wr["mtb:name"][name]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
