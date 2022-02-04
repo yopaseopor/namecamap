@@ -185,8 +185,8 @@ var config = {
 		
 		{
 			group: 'mtb',
-			title: 'mtb=yes',
-			query: '(nwr["mtb"="yes"]({{bbox}});node(w););out;',
+			title: 'Calle',
+			query: '(nwr[name~"^[Cc]alle"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#00ff00',
 			style: function (feature) {
@@ -222,8 +222,8 @@ var config = {
 		},
 		{
 			group: 'mtb',
-			title: 'mtb=designated',
-			query: '(nwr["mtb"="designated"]({{bbox}});node(w););out;',
+			title: 'Avenida',
+			query: '(nwr[name~"^[Aa]venida"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
@@ -259,8 +259,8 @@ var config = {
 		},
 		{
 			group: 'mtb',
-			title: 'mtb=no',
-			query: '(nwr["mtb"="no"]({{bbox}});node(w););out;',
+			title: 'Paseo',
+			query: '(nwr[name~"^[Pp]aseo"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
 			iconStyle: 'background-color:#ff0000',
 			style: function (feature) {
@@ -296,8 +296,8 @@ var config = {
 		},
 		{
 			group: 'mtb',
-			title: 'mtb:type=crosscountry',
-			query: '(nwr["mtb:type"="crosscountry"]({{bbox}});node(w););out;',
+			title: 'Parque',
+			query: '( nwr[name~"^[Pp]arque"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#ffc0cb',
 			style: function (feature) {
@@ -333,8 +333,8 @@ var config = {
 		},
 		{
 			group: 'mtb',
-			title: 'mtb:type=allmountain',
-			query: '(nwr["mtb:type"="allmountain"]({{bbox}});node(w););out;',
+			title: 'Plaza',
+			query: '(nwr[name~"^[Pp]laza"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#ff00ff',
 			style: function (feature) {
@@ -370,8 +370,8 @@ var config = {
 		},
 		{
 			group: 'mtb',
-			title: 'mtb:type=downhill',
-			query: '(nwr["mtb:type"="downhill"]({{bbox}});node(w););out;',
+			title: 'Camino',
+			query: '(nwr[name~"^[Cc]amino"]["name:ca"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#800080',
 			style: function (feature) {
