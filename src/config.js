@@ -199,7 +199,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(0,128,0,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -210,6 +210,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								font: '14px Verdana',
 								offsetX : 0,
 								offsetY : 12
@@ -236,7 +237,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(0,51,153,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -247,6 +248,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								font: '14px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
@@ -273,7 +275,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(255,0,0,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -284,6 +286,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(255,0,0,0.4)',
+								placement: 'line',
 								font: '12px Verdana',
 								offsetX : 0,
 								offsetY : 12
@@ -310,7 +313,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(255,192,203,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -322,6 +325,7 @@ var config = {
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
 								font: '14px Verdana',
+								placement: 'line',
 								offsetX : 0,
 								offsetY : 12
 							}),
@@ -347,7 +351,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(255,0,255,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -358,6 +362,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								font: '14px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
@@ -384,7 +389,7 @@ var config = {
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgba(128,0,128,0.4)',
-					width: 1
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
@@ -395,6 +400,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(255,0,0,0.4)',
+								placement: 'line',
 								font: '12px Verdana',
 								offsetX : 0,
 								offsetY : 12
@@ -432,6 +438,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								font: '14px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
@@ -469,6 +476,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								font: '14px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
@@ -506,6 +514,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
+								placement: 'line',
 								offsetX : 0,
 								offsetY : 12
 							}),
