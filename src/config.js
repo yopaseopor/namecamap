@@ -248,7 +248,7 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
-								font: '14px Gill Sans Extrabold',
+								font: '10px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
 							}),
@@ -285,9 +285,9 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
-								font: '14px Gill Sans Extrabold',
+								font: '10px Gill Sans Extrabold',
 								offsetX : 0,
-								offsetY : 12
+								offsetY : 22
 							}),
 					fill: fill,
 					stroke: stroke
@@ -322,9 +322,9 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
-								font: '14px Gill Sans Extrabold',
+								font: '10px Gill Sans Extrabold',
 								offsetX : 0,
-								offsetY : 12
+								offsetY : 32
 							}),
 					fill: fill,
 					stroke: stroke
