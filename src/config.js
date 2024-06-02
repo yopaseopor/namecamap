@@ -223,7 +223,7 @@ var config = {
 		},
 		{
 			group: 'Poblacions amb name',
-			title: 'name',
+			title: 'name2',
 			query: '(node["name"]["capital"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
