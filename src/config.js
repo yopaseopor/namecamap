@@ -224,7 +224,7 @@ var config = {
 		{
 			group: 'Poblacions amb name',
 			title: 'name',
-			query: '(nwr["name:ca"]["capital"~"^[7-8]$"~]({{bbox}});node(w););out;',
+			query: '(nwr["name:ca"]["capital"~"^[7-8]"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
