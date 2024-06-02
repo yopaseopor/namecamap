@@ -224,11 +224,11 @@ var config = {
 		{
 			group: 'Poblacions amb name',
 			title: 'name',
-			query: '(nwr["name:ca"]["capital"~"^[7-8]"]({{bbox}});node(w););out;',
+			query: '(nwr["name:ca"]["capital"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
-				var key_regex = /^name:ca$/
+				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
