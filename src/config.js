@@ -223,7 +223,7 @@ var config = {
 		},
 		{
 			group: 'Poblacions amb name',
-			title: 'name',
+			title: 'nam2e',
 			query: '(nwr["name:ca"]["capital"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
