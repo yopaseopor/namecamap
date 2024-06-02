@@ -224,7 +224,7 @@ var config = {
 		{
 			group: 'Poblacions amb name',
 			title: 'name',
-			query: '(nwr["name"]["capital"]({{bbox}});node(w););out;',
+			query: '(node["name"]["capital"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
 			iconStyle: 'background-color:#003399',
 			style: function (feature) {
@@ -248,7 +248,6 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								color: 'rgba(0,128,0,0.4)',
-								placement: 'line',
 								font: '14px Gill Sans Extrabold',
 								offsetX : 0,
 								offsetY : 12
